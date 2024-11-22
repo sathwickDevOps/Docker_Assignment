@@ -20,7 +20,7 @@ services:
     container_name: elasticsearch
     environment:
       - discovery.type=single-node
-      - ELASTIC_PASSWORD=changeme%
+      
     ports:
       - "9200:9200"
     volumes:
